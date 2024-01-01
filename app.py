@@ -17,7 +17,7 @@ def get_gemini_response(question):
     return response
 
 st.set_page_config(page_title='QnA ChatBot')
-st.header('QnA ChatBot With History Using Gemini Pro LLM Model')
+st.header('QnA ChatBot With Saved Chat History Using Gemini Pro LLM Model')
 
 # initiate session state for chat history if it doesn't exits
 if 'chat_history' not in st.session_state:
